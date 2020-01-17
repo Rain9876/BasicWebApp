@@ -23,6 +23,7 @@ public class WebServer {
     handler.addServletWithMapping(new ServletHolder(new Api()), "/api/*");
     server.setHandler(handler);
 
+    
     server.start();
   }
 
